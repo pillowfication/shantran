@@ -5,7 +5,7 @@ function calcDifficulty(word) {
 }
 
 function nextGuess(signature, wrongGuesses) {
-
+  return true;
 }
 
 /**
