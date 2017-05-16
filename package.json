@@ -1,0 +1,26 @@
+{
+  "name": "Shannon",
+  "version": "0.0.0",
+  "description": "Shannon",
+  "author": {
+    "name": "Markus Tran",
+    "email": "thebluepillow@gmail.com",
+    "url": "http://pillowfication.com"
+  },
+  "homepage": "https://github.com/pillowfication/Shannon",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/pillowfication/Shannon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pillowfication/Shannon/issues"
+  },
+  "main": "",
+  "scripts": {
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "eslint": "^3.18.0"
+  }
+}
