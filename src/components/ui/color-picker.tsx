@@ -1,9 +1,15 @@
 'use client'
 
-import { type Color } from '@/app/api/conduit/types'
 import { cn } from '@/lib/utils'
 import { type ChangeEvent, type ReactElement } from 'react'
 import { SketchPicker, type SketchPickerProps } from 'react-color'
+
+interface Color {
+  r: number
+  g: number
+  b: number
+  a: number
+}
 
 export const ColorPicker = ({ color, onChange, className, ...props }: Omit<SketchPickerProps, 'color' | 'onChange'> & {
   color: Color
