@@ -24,7 +24,7 @@ export default function Home (): ReactElement {
         </div>
         <div>
           <p className='text-1xl'>I’m currently on the job market for the 2024-2025 academic year. My job market paper investigates how gender influences skill and knowledge exchange in collaborations between junior and "superstar" economists. I find that junior women uniquely benefit from working with female "superstars," highlighting the critical role of gender in skill transfer and women's academic success.</p>
-          <p className='text-1xl'>As a graduate research assistant for the UH Mānoa <a href="https://manoa.hawaii.edu/advance/">ADVANCE Kaulike Catalyst project</a>, I contribute to data collection, data analysis, and institutional policy assessment to identify systemic gender inequities among STEM faculty.</p>
+          <p className='text-1xl'>As a graduate research assistant for the UH Mānoa <a href='https://manoa.hawaii.edu/advance/'>ADVANCE Kaulike Catalyst project</a>, I contribute to data collection, data analysis, and institutional policy assessment to identify systemic gender inequities among STEM faculty.</p>
         </div>
       </section>
       <h1 id='research' className='text-primary text-2xl mb-2 text-right'>RESEARCH</h1>
