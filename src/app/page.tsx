@@ -12,7 +12,7 @@ export default function Home (): ReactElement {
         <div className='grid grid-cols-[50%_50%] mb-5'>
           <div>
             <p className='text-primary text-4xl mt-6'>I am a PhD candidate in Economics at the University of Hawaiʻi at Mānoa.</p>
-            <p className='text-primary text-2xl'>My research examines factors influencing scientific production, with a particular focus on underrepresented groups such as women and researchers from low-income countries.</p>
+            <p className='text-primary text-2xl'>My research explores how social and institutional factors influence the production of scientific knowledge, particularly for underrepresented groups.</p>
           </div>
           <div className='px-5'>
             <img
@@ -23,8 +23,7 @@ export default function Home (): ReactElement {
           </div>
         </div>
         <div>
-          <p className='text-1xl'>I’m currently on the job market for the 2024-2025 academic year. My job market paper investigates how gender influences skill and knowledge exchange in collaborations between junior and "superstar" economists. I find that junior women uniquely benefit from working with female "superstars," highlighting the critical role of gender in skill transfer and women's academic success.</p>
-          <p className='text-1xl'>As a graduate research assistant for the UH Mānoa <a href='https://manoa.hawaii.edu/advance/'>ADVANCE Kaulike Catalyst project</a>, I contribute to data collection, data analysis, and institutional policy assessment to identify systemic gender inequities among STEM faculty.</p>
+          <p className='text-1xl'>I am currently on the job market for the 2024-2025 academic year. I will be attending and <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'>presenting my job market paper</a>at the AEA Annual Meeting in San Francisco, CA, January 3-5, 2025.</p>
         </div>
       </section>
       <h1 id='research' className='text-primary text-2xl mb-2 text-right'>RESEARCH</h1>
@@ -38,19 +37,21 @@ export default function Home (): ReactElement {
             />
           </div>
           <div>
-            <p className='mt-6 ml-4'>My research focuses on understanding the factors influencing academic research production, particularly how these factors contribute to existing gender and socioeconomic inequalities in academia. I investigate the impact of collaboration patterns, superstar peer effects, and gender dynamics on the research output of junior economists. Additionally, I examine how negative news, public mistrust of science, and national policy interventions, such as publication-based ranking systems, affect overall academic science output.</p>
+            <p className='mt-6 ml-4'>My research focuses on diversity in science, particularly gender and geographic disparities. While science is advancing globally, opportunities to participate in scientific research remain inequitable. This lack of diversity hinders the scope of new ideas and the communities that benefit from scientific progress.</p>
+            <p className='mt-6 ml-4'>My research investigates how to address these disparities. For instance, my job market paper examines how gender influences skill and knowledge exchange in collaborations between junior and "superstar" economists. I find that junior women uniquely benefit from working with female "superstars," highlighting the critical role of gender in skill transfer and women's academic success. Additionally, my research on the impact of a medical ethics scandal in sub-Saharan Africa highlights the importance of trust and community engagement in fostering scientific development. Finally, my work on research evaluation systems in Indonesia explores how such systems can influence research productivity and impact.</p>
+            <p className='mt-6 ml-4'>As a graduate research assistant for the UH Mānoa <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to data collection, data analysis, and institutional policy assessment to identify and address systemic gender inequities among STEM faculty.</p>
           </div>
         </div>
       </section>
       <h1 className='text-primary text-2xl mb-2'>JOB MARKET PAPER</h1>
       <section className='mb-10'>
-        <p className='text-3xl'>Star Secrets? Examining the Gendered Effects of Collaboration on Junior Economists’ Success</p>
-        <p className='text-lg'>Abstract: Do women navigate the path to success differently in economics? This paper explores whether collaborating with prominent female economists (“superstars”) offers early-career women unique advantages in navigating this path. Utilizing publication data and a matched-control design, I examine the gender-specific impact of co-authorship on junior economists' publication success in the US. Results indicate that collaborating with a female superstar significantly enhances publication outcomes for junior women, while having no such effect on junior men. This suggests that female superstars provide unique advantages beyond technical knowledge transfer, potentially equipping junior women with specific skills to navigate the field. I propose that these benefits may stem from female superstars' possession and transfer of non-cognitive skills, which may be less prevalent among male superstars. This research highlights the importance of understanding gender-specific dynamics in academic success within the field of economics.</p>
+        <p className='text-3xl'>Star Secrets? Gender differences in the impact of superstar coauthorship in Economics</p>
+        <p className='text-lg'>Abstract: The field of economics grapples with a persistent gender gap, with the underrepresentation of women worsening up the senior ranks in the academic profession  (CSWEP, 2020). This study investigates how gender shapes the benefits of collaboration with highly successful economists, or "superstars." Specifically, I examine whether early coauthorship with a female superstar leads to greater publication success for junior researchers compared to coauthorship with a male superstar. Using a difference-in-differences design with a matched sample, I find that junior women who coauthor with female superstars experience significantly better publication outcomes compared to those who coauthor with male superstars. In contrast, I find that junior men publish similarly regardless of the gender of their superstar coauthor. These findings suggest that female superstars may offer unique advantages to junior women that male superstars do not, potentially explaining the persistence of the gender gap in economics. This implies that future research on strategies for supporting women in economics should consider gender-specific approaches to address their unique challenges.</p>
       </section>
       <h1 className='text-primary text-2xl mb-2'>PUBLICATIONS</h1>
       <section className='mb-10'>
         <ul className='list-disc pl-10'>
-          <li>“Ranking Researchers: Evidence from Indonesia” <i>(with John Lynham and Caroline Fry)</i>, <i><b>Research Policy</b></i>, 2023</li>
+          <li>“<a href='https://www.sciencedirect.com/science/article/abs/pii/S0048733323000379' className='text-primary hover:underline'>Ranking Researchers: Evidence from Indonesia</a>” <i>(with John Lynham and Caroline Fry)</i>, <i><b>Research Policy</b></i>, 2023</li>
         </ul>
         <Collapsible>
           <div className='text-right'>
@@ -66,7 +67,7 @@ export default function Home (): ReactElement {
       <h1 className='text-primary text-2xl mb-2'>UNDER REVIEW</h1>
       <section className='mb-10'>
         <ul className='list-disc pl-10'>
-          <li>“The Price of Mistrust: The impact of a medical ethics scandal on scientific capacity in sub-Saharan Africa” <i>(with Caroline Fry)</i>, Revise & resubmit at <i><b>Industry and Innovation</b></i></li>
+          <li>“<a href='https://www.tandfonline.com/doi/full/10.1080/13662716.2024.2421933' className='text-primary hover:underline'>The Price of Mistrust: The impact of a medical ethics scandal on scientific capacity in sub-Saharan Africa</a>” <i>(with Caroline Fry)</i>, <i><b>Industry and Innovation</b></i>, 2024</li>
         </ul>
         <Collapsible>
           <div className='text-right'>
@@ -75,14 +76,14 @@ export default function Home (): ReactElement {
             </Collapsible.Trigger>
           </div>
           <Collapsible.Content>
-            <p className='text-lg'>This study investigates how negative news alleging ethical misconduct in clinical trials can hinder scientific development in emerging economies. We examine a 2000 exposé surrounding a clinical trial conducted in Northern Nigeria, leading to decades of community mistrust in foreign pharmaceutical companies. By comparing scientific output of researchers in affected and less affected regions, we find a significant decline in publication growth, particularly for medical researchers. An exploration of the mechanisms suggests that eroded community support and participation in research and reduced international collaboration contributed to this slowdown. This study emphasize the  importance of the science-community relationship in fostering scientific development. This study highlights the importance of the science-community relationship in fostering scientific development. Our findings imply that a ‘social license to operate’ grounded in community trust is essential for scientific progress, and that future research on the determinants of scientific capacity in developing countries should consider community attitudes and involvement.</p>
+            <p className='text-lg'>This study investigates how negative news alleging ethical misconduct in clinical trials can hinder scientific development in emerging economies. We examine a 2000 exposé surrounding a clinical trial conducted in Northern Nigeria, leading to decades of community mistrust in foreign pharmaceutical companies. By comparing scientific output of researchers in affected and less affected regions, we find a significant decline in publication growth, particularly for medical researchers. An exploration of the mechanisms suggests that eroded community support and participation in research and reduced international collaboration contributed to this slowdown. This study highlights the importance of the science-community relationship in fostering scientific development. Our findings imply that a ’social li- cense to operate’ grounded in community trust is essential for scientific progress, and that future research on the determinants of scientific capacity in developing countries should consider community attitudes and involvement.</p>
           </Collapsible.Content>
         </Collapsible>
       </section>
       <h1 className='text-primary text-2xl mb-2'>IN PROGRESS</h1>
       <section className='mb-10'>
         <ul className='list-disc pl-10'>
-          <li>“Star Secrets? Examining the Gendered Effects of Collaboration on Junior Economists’ Success”</li>
+          <li>“Star Secrets? Gender differences in the impact of superstar coauthorship in Economics”</li>
         </ul>
         <Collapsible>
           <div className='text-right'>
@@ -91,7 +92,7 @@ export default function Home (): ReactElement {
             </Collapsible.Trigger>
           </div>
           <Collapsible.Content>
-            <p className='text-lg'>Do women navigate the path to success differently in economics? This paper explores whether collaborating with prominent female economists (“superstars”) offers early-career women unique advantages in navigating this path. Utilizing publication data and a matched-control design, I examine the gender-specific impact of co-authorship on junior economists’ publication success in the US. Results indicate that collaborating with a female superstar significantly enhances publication outcomes for junior women, while having no such effect on junior men. This suggests that female superstars provide unique advantages beyond technical knowledge transfer, potentially equipping junior women with specific skills to navigate the field. I propose that these benefits may stem from female superstars’ possession and transfer of non-cognitive skills, which may be less prevalent among male superstars. This research highlights the importance of understanding gender-specific dynamics in academic success within the field of economics.</p>
+            <p className='text-lg'>The field of economics grapples with a persistent gender gap, with the underrepresentation of women worsening up the senior ranks in the academic profession  (CSWEP, 2020). This study investigates how gender shapes the benefits of collaboration with highly successful economists, or "superstars." Specifically, I examine whether early coauthorship with a female superstar leads to greater publication success for junior researchers compared to coauthorship with a male superstar. Using a difference-in-differences design with a matched sample, I find that junior women who coauthor with female superstars experience significantly better publication outcomes compared to those who coauthor with male superstars. In contrast, I find that junior men publish similarly regardless of the gender of their superstar coauthor. These findings suggest that female superstars may offer unique advantages to junior women that male superstars do not, potentially explaining the persistence of the gender gap in economics. This implies that future research on strategies for supporting women in economics should consider gender-specific approaches to address their unique challenges.</p>
           </Collapsible.Content>
         </Collapsible>
         <ul className='list-disc pl-10'>
