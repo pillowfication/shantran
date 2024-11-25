@@ -13,7 +13,7 @@ export default function Home (): ReactElement {
           <div>
             <p className='text-primary text-4xl mt-6'>I am a PhD candidate in Economics at the University of Hawaiʻi at Mānoa.</p>
             <p className='text-primary text-2xl'>My research focuses on the social and institutional factors that shape academic science, with a focus on innovation and inclusion.</p>
-            <p className='text-0.5xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'>presenting my job market paper</a> at the AEA Annual Meeting in San Francisco, CA in January 2025.</p>
+            <p className='text-0.5xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'>presenting my job market paper</a> at the AEAs in San Francisco, CA in January 2025.</p>
           </div>
           <div className='px-5'>
             <img
@@ -127,7 +127,7 @@ export default function Home (): ReactElement {
       <h1 id='contact' className='text-primary text-2xl mb-2'>CONTACT</h1>
       <section className='mb-20'>
         <div>
-          <span className='text-2xl font-semibold'>Shannon P Tran</span><br />
+          <span className='text-2xl font-semibold'>Shannon P. Tran</span><br />
           <a href='mailto:sptran@hawaii.edu' className='text-primary'>sptran@hawaii.edu</a><br />
           <span className='text-primary'>(408) 332-0704</span><br />
           <br />
