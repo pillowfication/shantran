@@ -40,6 +40,9 @@ export default function Home (): ReactElement {
             <p className='mt-6 ml-4'>Beyond my research, I'm committed to fostering diversity, equity, and inclusion in academia. As a research assistant for the <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to efforts to address systemic gender inequities in STEM faculty at the University of Hawai'i.</p>
           </div>
         </div>
+        <div>
+          <p className='mt-6 ml-4'>Beyond my research, I'm committed to fostering diversity, equity, and inclusion in academia. As a research assistant for the <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to efforts to address systemic gender inequities in STEM faculty at the University of Hawai'i.</p>
+        </div>
       </section>
       <h1 className='text-primary text-2xl mb-2'>JOB MARKET PAPER</h1>
       <section className='mb-10'>
