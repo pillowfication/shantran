@@ -13,6 +13,7 @@ export default function Home (): ReactElement {
           <div>
             <p className='text-primary text-4xl mt-6'>I am a PhD candidate in Economics at the University of Hawaiʻi at Mānoa.</p>
             <p className='text-primary text-2xl'>My research focuses on the social and institutional factors that shape academic science, with a focus on innovation and inclusion.</p>
+            <p className='text-1xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'> presenting my job market paper</a>at the AEA Annual Meeting in San Francisco, CA, January 3-5, 2025.</p>
           </div>
           <div className='px-5'>
             <img
