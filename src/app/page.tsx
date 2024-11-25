@@ -36,7 +36,7 @@ export default function Home (): ReactElement {
           </div>
           <div>
             <p className='mt-6 ml-4'>My research focuses on understanding the social and institutional factors that shape scientific production, with an emphasis on issues of inequality and diversity. I primarily employ reduced-form empirical methods to answer these questions. More specifically, I use exogenous shocks as quasi-experimental variation and matching methods to identify causal relationships. My research has explored gender disparities in academia, the impact of social policies on scientific productivity, and the role of cultural factors in scientific development.</p>
-            <p className='mt-6 ml-4'>My job market paper examines how gender influences the benefits of coauthorship with "superstar" economists on the publication outcomes of junior economists. I find that junior women benefit more from early coauthorship with female superstars compared to male superstars. I've also coauthored published papers exploring the factors influencing scientific production in developing countries, highlighting the influence of social trust, community engagement, and research evaluation systems.</p>
+            <p className='mt-6 ml-4'>My job market paper examines how gender influences the benefits of coauthorship with "superstar" economists on the publication outcomes of junior economists. I find that junior women benefit more from early coauthorship with female superstars compared to male superstars. I've also coauthored published papers exploring the factors influencing scientific production in developing countries, highlighting the impact of social trust, community engagement, and research evaluation systems.</p>
           </div>
         </div>
         <div>
