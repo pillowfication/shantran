@@ -12,7 +12,7 @@ export default function Home (): ReactElement {
         <div className='grid grid-cols-[50%_50%] mb-5'>
           <div>
             <p className='text-primary text-4xl mt-6'>I am a PhD candidate in Economics at the University of Hawaiʻi at Mānoa.</p>
-            <p className='text-primary text-2xl'>My research explores how social and institutional factors shape the production of scientific knowledge, focusing on the experiences of underrepresented groups, such as women and researchers from developing countries.</p>
+            <p className='text-primary text-2xl'>My research focuses on the social and institutional factors that shape academic science, with a focus on innovation and inclusion.</p>
           </div>
           <div className='px-5'>
             <img
@@ -23,7 +23,7 @@ export default function Home (): ReactElement {
           </div>
         </div>
         <div>
-          <p className='text-1xl'>I am currently on the job market for the 2024-2025 academic year. I will be attending and <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'>presenting my job market paper</a>at the AEA Annual Meeting in San Francisco, CA, January 3-5, 2025.</p>
+          <p className='text-1xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'> presenting my job market paper</a>at the AEA Annual Meeting in San Francisco, CA, January 3-5, 2025.</p>
         </div>
       </section>
       <h1 id='research' className='text-primary text-2xl mb-2 text-right'>RESEARCH</h1>
@@ -37,8 +37,9 @@ export default function Home (): ReactElement {
             />
           </div>
           <div>
-            <p className='mt-6 ml-4'>My research focuses on diversity in science, particularly gender and geographic disparities. Despite the ongoing advancement of science, opportunities to participate in scientific research remain inequitable. Many marginalized groups face barriers to entry, participation, and visibility within the scientific community. This lack of diversity hinders the scope of new ideas and limits the potential benefits for society.</p>
-            <p className='mt-6 ml-4'>My research investigates how to address these disparities. For instance, my job market paper investigates how gender shapes the benefits of collaborating with superstar economists. I find that junior women who coauthor with female superstars experience significant publication advantages compared to those who coauthor with male superstars, suggesting the importance of gender-specific factors in shaping female success in economics. Additionally, my research on the impact of a medical ethics scandal in sub-Saharan Africa highlights the importance of trust and community engagement in fostering scientific development. Finally, my work on ranking and research evaluation systems in Indonesia explores how such systems can influence researcher productivity and behavior.</p>
+            <p className='mt-6 ml-4'>I'm interested in understanding gender and geographic disparities in science and identifying factors that can mitigate or address these disparities. I primarily use reduced-form empirical methods and publication data to answer these questions. More specifically, I utilize exogenous shocks as quasi-experimental variation and employ matching methods to identify causal relationships. I primarily use bibliometric databases to study the output of scientists.</p>
+            <p className='mt-6 ml-4'>My job market paper addresses gender disparities in economics. It examines how gender influences the benefits of coauthorship with "superstar" economists on the publication outcomes of junior economists. I find that junior women benefit more from early coauthorship with female superstars compared to male superstars. These findings have important implications for understanding the determinants of female success in economics publishing, suggesting that they may differ from those of male counterparts.</p>
+            <p className='mt-6 ml-4'>I've coauthored published papers exploring the factors influencing scientific production in developing countries. My research highlights the influence of research evaluation systems, social trust, and community engagement on the scientific productivity of researchers in Indonesia and Northern Nigeria. Both of these research areas explore the social and institutional factors that underpin a region's scientific development, and how they contribute to the broader discussion of scientific inequity.</p>
             <p className='mt-6 ml-4'>My graduate research assistantship also involves diversity research in academia. As a research assistant for the <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to data collection, data analysis, and institutional policy assessment to identify and address systemic gender inequities among STEM faculty at the University of Hawaiʻi.</p>
           </div>
         </div>
