@@ -43,6 +43,9 @@ export default function Home (): ReactElement {
             <p className='mt-6 ml-4'>I’m also involved in diversity initiatives at my university. As a research assistant for the <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to data collection, data analysis, and institutional policy assessment to identify and address systemic gender inequities among STEM faculty at the University of Hawaiʻi.</p>
           </div>
         </div>
+        <div>
+          <p className='text-1xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'> presenting my job market paper</a>at the AEA Annual Meeting in San Francisco, CA, January 3-5, 2025.</p>
+        </div>
       </section>
       <h1 className='text-primary text-2xl mb-2'>JOB MARKET PAPER</h1>
       <section className='mb-10'>
