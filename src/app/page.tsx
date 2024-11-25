@@ -63,8 +63,6 @@ export default function Home (): ReactElement {
             <p className='text-lg'>In the span of three years, Indonesia went from being the second-worst to the top producer of scientific journal articles in Southeast Asia. We investigate whether a transparent system of ranking every single researcher in the country based on publications and citations (SINTA) contributed to this turnaround. Using panel data from over 200,000 Indonesian researchers (and comparing to researchers from Thailand and the Philippines), we show that the implementation of SINTA coincides with changes in the production of publications by Indonesian researchers consistent with the weights used in the ranking formula. Although we see modest improvements in publication rates in top-ranked journals, 62% of the observed increase in total publications is from conference proceedings. Because SINTA was launched around the same time as other policies that focused on increasing publications, isolating the precise impact of SINTA remains challenging. Nevertheless, after accounting for such policies, our results imply that a ranking and evaluation system for researchers can contribute to overall improvements in scientific capacity in low- and middle-income countries.</p>
           </Collapsible.Content>
         </Collapsible>
-      </section>
-      <section className='mb-10'>
         <ul className='list-disc pl-10'>
           <li>“<a href='https://www.tandfonline.com/doi/full/10.1080/13662716.2024.2421933' className='text-primary hover:underline'>The Price of Mistrust: The impact of a medical ethics scandal on scientific capacity in sub-Saharan Africa</a>” <i>(with Caroline Fry)</i>, <i><b>Industry and Innovation</b></i>, 2024</li>
         </ul>
