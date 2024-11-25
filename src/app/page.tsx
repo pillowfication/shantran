@@ -120,7 +120,7 @@ export default function Home (): ReactElement {
             />
           </div>
           <div>
-            <p className='text-2xl mt-10'>Interested in my background and experience?<br /><a href='/Shannon Tran CV.pdf' target='_blank' className='text-primary hover:underline'>Check out my CV.</a></p>
+            <p className='text-2xl mt-10'>Interested in my background and experience?<br /><a href='/cv.pdf' target='_blank' className='text-primary hover:underline'>Check out my CV.</a></p>
           </div>
         </div>
       </section>
