@@ -64,7 +64,6 @@ export default function Home (): ReactElement {
           </Collapsible.Content>
         </Collapsible>
       </section>
-      <h1 className='text-primary text-2xl mb-2'>UNDER REVIEW</h1>
       <section className='mb-10'>
         <ul className='list-disc pl-10'>
           <li>“<a href='https://www.tandfonline.com/doi/full/10.1080/13662716.2024.2421933' className='text-primary hover:underline'>The Price of Mistrust: The impact of a medical ethics scandal on scientific capacity in sub-Saharan Africa</a>” <i>(with Caroline Fry)</i>, <i><b>Industry and Innovation</b></i>, 2024</li>
