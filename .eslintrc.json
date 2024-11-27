@@ -1,11 +1,3 @@
 {
-  "extends": ["standard", "standard-with-typescript", "standard-jsx", "next/core-web-vitals"],
-  "rules": {
-    "@next/next/no-img-element": "off",
-    "@typescript-eslint/indent": ["error", 2, {
-      "SwitchCase": 1,
-      "ignoredNodes": ["TSTypeParameterInstantiation"]
-    }],
-    "react-hooks/exhaustive-deps": "off"
-  }
+  "extends": ["next/core-web-vitals", "next/typescript", "standard", "standard-jsx"]
 }
