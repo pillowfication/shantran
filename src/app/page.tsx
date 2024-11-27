@@ -12,8 +12,8 @@ export default function Home (): ReactElement {
         <div className='grid grid-cols-[50%_50%] mb-5'>
           <div>
             <p className='text-primary text-4xl mt-6'>I am a PhD candidate in Economics at the University of Hawaiʻi at Mānoa.</p>
-            <p className='text-primary text-2xl'>My research focuses on the social and institutional factors that shape academic science, with a focus on innovation and inclusion.</p>
-            <p className='text-0.5xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'>presenting my job market paper</a> at the AEAs in San Francisco, CA in January 2025.</p>
+            <p className='text-primary text-2xl'>My research explores the social and institutional factors that shape academic science, with a focus on innovation and inclusion.</p>
+            <p className='text-0.5xl'>I am currently on the job market for the 2024-2025 academic year. I will be <a href='https://www.aeaweb.org/conference/2025/preliminary/2057?q=eNo1jEEKgDAMBP-yZwU9ePEdfqDWUHKoLUlRpPTvpoi32d1hK5RUOZ3bkwlr_SNWzGgDvCsUkjyWMcCpJv9hIYlGu_AR-AzWHK5b87j0lSN93sV091_J2YplQmsvh7kjfQ,,' className='text-primary hover:underline'>presenting my job market paper</a> at the ASSAs in San Francisco, CA in January 2025.</p>
           </div>
           <div className='px-5'>
             <img
@@ -35,12 +35,12 @@ export default function Home (): ReactElement {
             />
           </div>
           <div>
-            <p className='mt-6 ml-4'>My research focuses on understanding the social and institutional factors that shape scientific production, with an emphasis on issues of inequality and diversity. I primarily employ reduced-form empirical methods to answer these questions. More specifically, I use exogenous shocks as quasi-experimental variation and matching methods to identify causal relationships. My research has explored gender disparities in academia, the impact of social policies on scientific productivity, and the role of cultural factors in scientific development.</p>
-            <p className='mt-6 ml-4'>My job market paper examines how gender influences the benefits of coauthorship with "superstar" economists on the publication outcomes of junior economists. I find that junior women benefit more from early coauthorship with female superstars compared to male superstars. I've also coauthored published papers exploring the factors influencing scientific production in developing countries, highlighting the impact of social trust, community engagement, and research evaluation systems.</p>
+            <p className='mt-6 ml-4'>My research aims to address gender and geographic inequities in science by identifying factors that promote innovation and regional scientific capacity. I primarily use reduced-form empirical methods, such as using policy changes as quasi-experimental variation and matching methods to identify causal relationships. My work has explored gender disparities in academia, the impact of social policies on researcher productivity, and the role of cultural factors in scientific development.</p>
+            <p className='mt-6 ml-4'>My job market paper investigates gender differences in the benefits of coauthoring with prominent economists. Employing a matched sample design, I find that junior female economists who coauthored with female superstars experience significantly better publication outcomes than those who coauthored with male superstars. This research aims to identify gender-specific factors that shape success in economics publishing. Additionally, I've coauthored published papers exploring the factors influencing scientific production in developing countries. These projects have highlighted the impact of research evaluation systems, social trust, and community engagement on the scientific productivity of researchers in Indonesia and Northern Nigeria.</p>
           </div>
         </div>
         <div>
-          <p className='mt-6 ml-4'>Beyond my research, I'm committed to fostering diversity, equity, and inclusion in academia. As a research assistant for the <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to efforts to address systemic gender inequities in STEM faculty at the University of Hawai'i.</p>
+          <p className='mt-6 ml-4'>Beyond my research, I'm actively involved in diversity initiatives at my university. As a research assistant for the <a href='https://manoa.hawaii.edu/advance/' className='text-primary hover:underline'>ADVANCE Kaulike Catalyst project</a>, I contribute to efforts to address systemic gender inequities in STEM faculty at the University of Hawai'i.</p>
         </div>
       </section>
       <h1 className='text-primary text-2xl mb-2'>JOB MARKET PAPER</h1>
