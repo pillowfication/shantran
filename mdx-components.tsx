@@ -10,6 +10,6 @@ export function useMDXComponents (components: MDXComponents): MDXComponents {
     a: props => <a className='text-primary hover:underline' {...props} />,
     ol: props => <ol className='list-decimal ml-4' {...props} />,
     ul: props => <ul className='list-disc ml-4' {...props} />,
-    blockquote: props => <blockquote className='border-l-4 border-l-gray-300 p-4 pl-8 [&>p:last-child]:m-0 ml-[0.15rem] mb-4' {...props} />
+    blockquote: props => <blockquote className='border-l-4 border-l-gray-300 p-2 pl-4 md:p-4 md:pl-8 [&>p:last-child]:m-0 ml-[0.15rem] mb-4' {...props} />
   }
 }

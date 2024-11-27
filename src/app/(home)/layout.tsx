@@ -10,7 +10,7 @@ export default function HomeLayout ({ children }: Readonly<{ children: ReactNode
   return (
     <div className='container mx-auto xl:max-w-screen-lg'>
       <nav>
-        <ul className='flex w-full [&>li]:inline-block [&>li]:px-2 [&>li]:py-5'>
+        <ul className='flex w-full px-2 [&>li]:inline-block [&>li]:px-2 [&>li]:py-5'>
           <li className='flex-grow'>
             <span className='hidden md:inline text-lg'>Shannon Tran</span>
           </li>
@@ -20,7 +20,7 @@ export default function HomeLayout ({ children }: Readonly<{ children: ReactNode
           <li><a href='#contact'>Contact</a></li>
         </ul>
       </nav>
-      <main className='mb-20 px-2'>
+      <main className='mb-20 px-4'>
         {children}
       </main>
     </div>
