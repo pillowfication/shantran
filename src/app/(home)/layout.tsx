@@ -12,7 +12,7 @@ export default function HomeLayout ({ children }: Readonly<{ children: ReactNode
       <nav>
         <ul className='flex w-full px-2 [&>li]:inline-block [&>li]:px-2 [&>li]:py-5'>
           <li className='flex-grow'>
-            <span className='hidden md:inline text-lg'>Shannon Tran</span>
+            <span className='hidden md:inline text-3xl font-phitagate font-bold'>Shannon Tran</span>
           </li>
           <li><a href='#about-me'>About</a></li>
           <li><a href='#research'>Research</a></li>
