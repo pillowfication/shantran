@@ -9,11 +9,11 @@ export const metadata: Metadata = {
 export default function HomeLayout ({ children }: Readonly<{ children: ReactNode }>) {
   return (
     <div className='container mx-auto xl:max-w-screen-lg'>
-      <nav>
-        <ul className='flex w-full px-2 [&>li]:inline-block [&>li]:px-2 [&>li]:py-5'>
-          <li className='flex-grow'>
-            <span className='hidden md:inline text-3xl font-phitagate font-bold'>Shannon P. Tran</span>
-          </li>
+      <nav className='flex px-4 items-center'>
+        <div className='flex-grow text-3xl font-phitagate font-bold text-center md:text-left py-4 md:py-0'>
+          Shannon P. Tran
+        </div>
+        <ul className='hidden md:block [&>li]:inline-block [&>li]:px-2 [&>li]:py-5'>
           <li><a href='#about-me'>About</a></li>
           <li><a href='#research'>Research</a></li>
           <li><a href='/cv'>CV</a></li>
