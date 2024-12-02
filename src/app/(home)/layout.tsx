@@ -3,7 +3,17 @@ import type { ReactNode } from 'react'
 
 export const metadata: Metadata = {
   title: 'Shannon Tran',
-  description: 'yippee!'
+  description: 'PhD candidate in Economics at the University of Hawaiʻi at Mānoa.',
+  openGraph: {
+    title: 'Shannon Tran',
+    description: 'PhD candidate in Economics at the University of Hawaiʻi at Mānoa.',
+    url: 'https://shantran.com',
+    images: [{
+      url: 'https://shantran.com/images/shantran.png'
+    }],
+    locale: 'en_US',
+    type: 'website'
+  }
 }
 
 export default function HomeLayout ({ children }: Readonly<{ children: ReactNode }>) {
